@@ -1,0 +1,4 @@
+data/
+output/
+*.csv
+!sample_jobs.csv
