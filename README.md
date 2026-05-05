@@ -2,3 +2,6 @@ This project analyzes a real-world LinkedIn job postings dataset to uncover insi
 
 
 Live Demo: https://linkedin-job-market-analysis-dashboard.onrender.com
+
+Dashboard:
+<img width="1159" height="652" alt="Dashboard" src="https://github.com/user-attachments/assets/5f4dca85-c335-4c6a-9162-6ac711eddd06" />
