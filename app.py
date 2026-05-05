@@ -51,7 +51,7 @@ col3.metric("Max Salary", int(filtered_df['normalized_salary'].max()))
 st.subheader("💻 Skill Demand")
 
 skills = ['python', 'sql_skill', 'excel', 'power_bi']
-counts = [filtered_df[s].sum() for s in skills]
+counts = [filtered_df[s].sum() if s in filtered_df.columns else 0 for s in skills]
 
 fig, ax = plt.subplots()
 ax.bar(skills, counts)
