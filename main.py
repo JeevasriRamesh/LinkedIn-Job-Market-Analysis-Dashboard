@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load raw data
-df = pd.read_csv("data/jobs.csv")
+df = pd.read_csv("sample_jobs.csv")
 
 
 # BASIC CLEANING

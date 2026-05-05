@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load cleaned data
-df = pd.read_csv("output/cleaned_jobs.csv")
+df = pd.read_csv("sample_jobs.csv")
 
 # Page setup
 st.set_page_config(page_title="Job Dashboard", layout="wide")
